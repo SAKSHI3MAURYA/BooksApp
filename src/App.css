@@ -1,0 +1,55 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: black;
+  justify-content: center;
+}
+.content{
+  margin: auto;
+}
+.title {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-weight:400;
+  background-color: wheat;
+  color: crimson;
+  border: 1px solid black;
+  height: max-content;
+  width: calc(max-content - 20px);
+  border-radius: 10px;
+}
+.subtitle {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-weight: lighter;
+  background-color: #803d3b;
+  color: wheat;
+  border: 1px solid black;
+  height: max-content;
+  width: calc(max-content - 20px);
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  background-color: #ff9696;
+  padding: 20px;
+  color:maroon;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.bookdetail {
+  border: 2px solid #ca8787;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 50%;
+  height: max-content;
+  padding: 10px;
+  color: rgb(20, 19, 18);
+  background-color: #ffd0d0;
+}
